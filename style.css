@@ -4,29 +4,30 @@
     box-sizing: border-box;
 }
 .header{
-    background-color: rgb(83, 99, 208);
+    
 }
-.navbar{
-    width: 100%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 15px;
+
+.estiloa{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.estiloa:hover{ 
+    background-color: white;
+    opacity: 0.8;
+    font-weight: 500;
     border-radius: 10px;
-    background: rgba(10, 1, 1, 0.514);
-   
 }
 body{
-    background-color: rgba(128, 123, 123, 0.729);
+    background-color:;
 }
 
 .logo{
     width: 150px;
-    height: 100px;
+    height: 80px;
     margin:  auto;
     padding: 5px;
+    opacity:0.8; 
     
    
 }
@@ -50,4 +51,11 @@ body{
     color: black;
     border-radius: 5px;
     padding: 5px;
+}
+
+.container{
+    background-color: white;
+}
+.derechos{
+    background-color: red;
 }
