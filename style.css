@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.navbar{
+    background-color: rgb(48, 49, 50);
+    
+}
 .estiloa{
     color: white;
     font-size: 20px;
