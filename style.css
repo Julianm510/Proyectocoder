@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header{
-    
-}
 
 .estiloa{
     color: white;
@@ -18,10 +15,6 @@
     font-weight: 500;
     border-radius: 10px;
 }
-body{
-    background-color:;
-}
-
 .logo{
     width: 150px;
     height: 80px;
