@@ -5,7 +5,11 @@
 }
 .navbar{
     background-color: rgb(48, 49, 50);
-    
+   
+}
+.barralink{
+    display: flex;
+    justify-content: space-evenly;
 }
 .estiloa{
     color: white;
