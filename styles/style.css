@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 .navbar{
-    background-color: rgb(48, 49, 50);
-   
+    background-color: rgba(46, 44, 44, 0.081);
+}
+body{
+    background-color: black;
 }
 .barralink{
     display: flex;
@@ -54,12 +56,8 @@
     padding: 5px;
 }
 
-.container{
-    background-color: white;
-}
-.derechos{
-    background-color: red;
-}
+
+
 .carousel-item{
     height: 100vh;
     min-height: 300px;
@@ -68,7 +66,7 @@
     background-size: cover;
 }
 .carousel-item::before{
-    content: "";
+    content: "" ;
     display: block;
     position: absolute;
     top: 0;
@@ -76,7 +74,9 @@
     bottom: 0;
     right: 0;
     background: black;
-    opacity: 0.7;
+    opacity: 0.6;
+    
+   
     
 }
 .carousel-caption{
@@ -92,13 +92,47 @@
     font-size: 18px;
     top: 2rem;
 }
+.btn.btn-1, .btn-2{
+
+    font-weight: 700;
+}
 .slider-btn{
     margin-top: 30px;
 }
-.slider-btn btn{
-    background-color: red;
-    columns: white;
+.slider-btn .btn{
+    background-color: rgba(211, 52, 52, 0.866);
+    
+    columns: rgb(190, 56, 56);
     border-radius: 5px ;
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
     margin-right: 15px;
+}
+.slider-btn .btn-1{
+    color: black;
+    background-color: white;
+    opacity: 0.7;
+}
+.slider-btn .btn-2{
+    color: black;
+    background-color: rgb(237, 236, 243);
+    opacity: 0.7;
+} 
+.slider-btn .btn-1:hover{
+    color: white(49, 27, 213);
+    background-color: rgb(251, 173, 38);
+    
+}
+.slider-btn .btn-2:hover{
+    color: white(49, 27, 213);
+    background-color: rgb(251, 173, 38);
+    
+}
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.links{
+    text-decoration: none;
+    color: black;
 }
