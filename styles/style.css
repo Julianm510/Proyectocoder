@@ -175,9 +175,8 @@ body{
     opacity: 0.1;
 }
 .form1{
-    width: 40%;
-    
-    padding: 35px;
+    width: 30%;
+    padding: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -191,11 +190,20 @@ body{
     width: 150px;
     height: 100px;
 }
-
-@meia screen and (max-width: 800px){
+.cabecera{
+    background-image: url(../imgs/NY.webp); no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.cabecera .navbar{
+    background-color: transparent;
+}
+@media screen and (max-width: 800px){
     .footer{
        background-image: url(../imgs/NY.webp);
       height: auto;
     }
+
+   
 
 }
