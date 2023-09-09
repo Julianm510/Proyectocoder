@@ -190,13 +190,40 @@ body{
     width: 150px;
     height: 100px;
 }
-.cabecera{
-    background-image: url(../imgs/NY.webp); no-repeat center;
-    background-size: cover;
-    min-height: 100vh;
+.caption-center{
+    top: 25%;
 }
-.cabecera .navbar{
-    background-color: transparent;
+.h1carru{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-size: 100px;
+    font-weight: 500;
+}
+.h2carru{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+.h4carru{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+.letraRo{
+    font-family: 'Inconsolata', monospace;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+h1.letraRo1{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    color: rgb(255, 213, 0);
 }
 @media screen and (max-width: 800px){
     .footer{
