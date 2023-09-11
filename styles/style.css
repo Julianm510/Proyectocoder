@@ -183,12 +183,14 @@ body{
 
 .footer{
     background-image: url(../imgs/fondogris.jpg);
+    background-size: cover ;
     background-repeat: no-repeat;
-    background-size:100%;
+    
 }
 .footerlogo img{
     width: 150px;
     height: 100px;
+    border-radius: 15px;
 }
 .caption-center{
     top: 25%;
@@ -216,6 +218,7 @@ font-family: 'PT Serif', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 }
+
 h1.letraRo1{
     font-family: 'Inconsolata', monospace;
     font-family: 'PT Serif', serif;
@@ -225,12 +228,51 @@ h1.letraRo1{
     font-size: 100px;
     color: rgb(255, 213, 0);
 }
-@media screen and (max-width: 800px){
-    .footer{
-       background-image: url(../imgs/NY.webp);
-      height: auto;
+
+@media screen and (max-width: 450px){
+    .navbarCon{
+        border-radius: 15px;
+    }
+    .mainCon {
+        background-color: rgba(245, 245, 220, 0.74);
+    }
+    .form1{
+        width: min-content;
+        
+    }
+    .redes{
+       color: rgb(0, 0, 0);
+       
     }
 
-   
+    .footer{
+    
+        font-weight: 800;
+       
+      }
+      .home {
+        background-color: rgba(245, 245, 220, 0.74);
+    }
 
-}
+ }
+
+ @media screen and (max-width: 850px){
+    .navbarCon{
+        border-radius: 15px;
+    }
+ 
+   .letraRo1{
+    width: max-content;
+   }
+
+    .footer{
+    
+        font-weight: 800;
+       
+      }
+
+ }
+
+ 
+
+ 
