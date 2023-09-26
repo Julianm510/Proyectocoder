@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.cabecera nav div div .a .logo {
+.cabecera nav div div a .logo {
   width: 150px;
   height: 80px;
   margin: auto;
@@ -12,18 +12,18 @@
   opacity: 0.8;
   border-radius: 25px;
 }
-.cabecera nav div div div ul li .estiloa {
+.cabecera nav div div ul li .estiloa {
   color: white;
   font-size: 20px;
   font-weight: 500;
 }
-.cabecera nav div div div ul li .estiloa:hover {
+.cabecera nav div div ul li .estiloa:hover {
   background-color: white;
   opacity: 0.8;
   font-weight: 500;
   border-radius: 10px;
 }
-.cabecera .abajoHead .container div h2 .abajoHeadTexto {
+.cabecera nav .abajoHead .container div h2 .abajoHeadTexto {
   color: rgb(255, 213, 0);
 }
 
@@ -128,6 +128,30 @@ main div div .container .carousel-caption .slider-btn .btn .btn-1 .links:hover {
   animation-name: titulo;
   animation-iteration-count: infinite;
 }
+.home .container div div h1.letraRo {
+  font-family: "Inconsolata", monospace;
+  font-family: "PT Serif", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.home .container div div h3.letraRo {
+  font-family: "Inconsolata", monospace;
+  font-family: "PT Serif", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.home .container div .letraRo {
+  font-family: "Inconsolata", monospace;
+  font-family: "PT Serif", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.home .container div div div .acordIt {
+  opacity: 0.7;
+}
+.home .container div div div .acordIt .acordIt {
+  opacity: 0.7;
+}
 @keyframes titulo {
   0% {
     opacity: 0.2;
@@ -142,18 +166,27 @@ main div div .container .carousel-caption .slider-btn .btn .btn-1 .links:hover {
     color: rgb(255, 213, 0);
   }
 }
-.home .container div div h1.letraRo {
-  font-family: "Inconsolata", monospace;
-  font-family: "PT Serif", serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
+.abajoHeadTexto {
+  color: rgb(255, 213, 0);
+  animation-duration: 6s;
+  animation-name: tituloHead;
+  animation-iteration-count: infinite;
 }
-.home .container div div h3.letraRo {
-  font-family: "Inconsolata", monospace;
-  font-family: "PT Serif", serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
+@keyframes tituloHead {
+  0% {
+    opacity: 0.2;
+    color: rgb(255, 213, 0);
+  }
+  50% {
+    opacity: 1;
+    color: rgb(240, 227, 180);
+  }
+  100% {
+    opacity: 0.3;
+    color: rgb(255, 213, 0);
+  }
 }
+
 body {
   background-color: rgb(67, 65, 65);
 }

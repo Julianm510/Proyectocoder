@@ -13,22 +13,9 @@
                         animation-duration: 6s;
                         animation-name: titulo;
                         animation-iteration-count: infinite;
-                        @keyframes titulo {
-                            0%{
-                              opacity: .2;
-                              color:  rgb(255, 213, 0);
-                            }
-                            50%{
-                              opacity: 1;
-                              color: rgb(240, 227, 180)
-                            }
-                            100%{
-                              opacity: .3;
-                              color: rgb(255, 213, 0);
-                            }
-                            
-                          }
                     }
+                        
+                    
                 }
                 div{
                     h1.letraRo{
@@ -48,7 +35,10 @@
                 }  
                 
                 .letraRo{
-                    p{}
+                        font-family: "Inconsolata", monospace;
+                        font-family: "PT Serif", serif;
+                        font-family: "Roboto", sans-serif;
+                        font-family: "Roboto Condensed", sans-serif;
 
                 }
 
@@ -67,7 +57,8 @@
                             }
 
                         }
-                        div{
+                        .acordIt{
+                            opacity: 0.7;
                             h2{
                                 button{}
                             }
@@ -76,7 +67,8 @@
                                     a{}
                                 }
                             }
-                            div{
+                            .acordIt{
+                                opacity: 0.7;
                                 h2{
                                     button{}
                                 }
@@ -95,3 +87,18 @@
     }
     
 }
+@keyframes titulo {
+    0%{
+      opacity: .2;
+      color:  rgb(255, 213, 0);
+    }
+    50%{
+      opacity: 1;
+      color: rgb(240, 227, 180)
+    }
+    100%{
+      opacity: .3;
+      color: rgb(255, 213, 0);
+    }
+    
+  }

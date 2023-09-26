@@ -1,0 +1,23 @@
+.abajoHeadTexto {
+    color: rgb(255, 213, 0);
+    animation-duration: 6s;
+    animation-name: tituloHead;
+    animation-iteration-count: infinite;
+
+
+     @keyframes tituloHead {
+        0% {
+          opacity: 0.2;
+          color: rgb(255, 213, 0);
+        }
+        50% {
+          opacity: 1;
+          color: rgb(240, 227, 180);
+        }
+        100% {
+          opacity: 0.3;
+          color: rgb(255, 213, 0);
+        }
+      }
+
+}

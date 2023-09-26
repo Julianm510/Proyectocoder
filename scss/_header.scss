@@ -1,10 +1,10 @@
 .cabecera {
 
-    nav{
-        div{
-            div{
-                .a{
-                    .logo{
+    nav {
+        div {
+            div {
+                a {
+                    .logo {
                         width: 150px;
                         height: 80px;
                         margin: auto;
@@ -14,15 +14,17 @@
 
                     }
                 }
-               
-                div{
-                    ul{
-                       li{
-                        .estiloa{
+            }
+
+            div {
+                ul {
+                    li {
+                        .estiloa {
                             color: white;
                             font-size: 20px;
                             font-weight: 500;
-                            &:hover{
+
+                            &:hover {
                                 background-color: white;
                                 opacity: 0.8;
                                 font-weight: 500;
@@ -30,20 +32,24 @@
                             }
 
                         }
-                       }
+
                     }
                 }
+
             }
         }
-    }
-    .abajoHead{
-        .container{
-            div{
-                
-                h2{
-                    .abajoHeadTexto{
-                        color: rgb(255, 213, 0);
-                        
+
+        .abajoHead {
+            
+            
+            .container {
+                div {
+
+                    h2 {
+                        .abajoHeadTexto {
+                            color: rgb(255, 213, 0);
+
+                        }
                     }
                 }
             }
