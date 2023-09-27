@@ -1,22 +1,18 @@
 .home{
     .container{
             div{
-                div{
-                    .LetraRo1{
-                        font-family: "Inconsolata", monospace;
-                        font-family: "PT Serif", serif;
-                        font-family: "Roboto", sans-serif;
-                        font-family: "Roboto Condensed", sans-serif;
-                        font-weight: 800;
-                        font-size: 100px;
-                        color: rgb(255, 213, 0);
-                        animation-duration: 6s;
-                        animation-name: titulo;
-                        animation-iteration-count: infinite;
-                    }
-                        
+                .LetraRo1{
+                    font-family: "Inconsolata", monospace;
+                    font-family: "PT Serif", serif;
+                    font-family: "Roboto", sans-serif;
+                    font-family: "Roboto Condensed", sans-serif;
+                    font-weight: 800;
+                    font-size: 100px;
+                    color: rgb(255, 213, 0);
                     
                 }
+            }
+            
                 div{
                     h1.letraRo{
                     font-family: "Inconsolata", monospace;
@@ -32,14 +28,18 @@
                         font-family: "Roboto Condensed", sans-serif;
                         
                     }
-                }  
+                  
                 
-                .letraRo{
-                        font-family: "Inconsolata", monospace;
-                        font-family: "PT Serif", serif;
-                        font-family: "Roboto", sans-serif;
-                        font-family: "Roboto Condensed", sans-serif;
+                    .letraRo{
+                        p{
+                            font-family: "Inconsolata", monospace;
+                            font-family: "PT Serif", serif;
+                            font-family: "Roboto", sans-serif;
+                            font-family: "Roboto Condensed", sans-serif;
+                        }
+                            
 
+                    }
                 }
 
                 div{
@@ -82,7 +82,7 @@
                         }
                     }
                 }
-            }
+            
 
     }
     

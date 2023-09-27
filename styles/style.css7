@@ -26,13 +26,7 @@
   font-weight: 500;
   border-radius: 10px;
 }
-.cabecera .abajoHead {
-  background-image: url(../imgs/fondogris.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 50px 0;
-}
-.cabecera .abajoHead .container div h2 .abajoHeadTexto {
+.cabecera nav .abajoHead .container div h2 .abajoHeadTexto {
   color: rgb(255, 213, 0);
 }
 
@@ -64,10 +58,7 @@ main div div div .h4carru {
   font-family: "Outfit", sans-serif;
   font-family: "PT Serif", serif;
 }
-.mainCon div div .redes {
-  color: rgb(244, 241, 241);
-}
-.mainCon .form1 {
+.mainCon div .form1 {
   width: 30%;
   padding: 30px;
   margin-top: 20px;
@@ -128,37 +119,37 @@ main div div .container .carousel-caption .slider-btn .btn .btn-1 .links:hover {
   border-top: 1px solid rgba(255, 166, 0, 0.7);
   border-right: 1px dashed rgba(255, 166, 0, 0.7);
 }
-.home .container div .LetraRo1 {
+.home .container div div .LetraRo1 {
   font-family: "Inconsolata", monospace;
   font-family: "PT Serif", serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 800;
-  font-size: 100px;
+  font-size: 50px;
   color: rgb(255, 213, 0);
 }
-.home .container div h1.letraRo {
+.home .container div div h1.letraRo {
   font-family: "Inconsolata", monospace;
   font-family: "PT Serif", serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
 }
-.home .container div h3.letraRo {
+.home .container div div h3.letraRo {
   font-family: "Inconsolata", monospace;
   font-family: "PT Serif", serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
 }
-.home .container div .letraRo p {
+.home .container div .letraRo {
   font-family: "Inconsolata", monospace;
   font-family: "PT Serif", serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
 }
-.home .container div div .acordIt {
+.home .container div div div .acordIt {
   opacity: 0.7;
 }
-.home .container div div .acordIt .acordIt {
+.home .container div div div .acordIt .acordIt {
   opacity: 0.7;
 }
 @keyframes titulo {
@@ -273,10 +264,6 @@ main div div .container .carousel-caption .slider-btn .btn .btn-1 .links:hover {
     min-width: auto;
   }
 }
-body {
-  background-color: rgb(67, 65, 65);
-}
-
 body {
   background-color: rgb(67, 65, 65);
 }
@@ -554,4 +541,4 @@ h1.letraRo1 {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css7.map */

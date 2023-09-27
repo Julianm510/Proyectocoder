@@ -67,6 +67,23 @@
 
 }
 
+.LetraRo1{
+  font-family: "Inconsolata", monospace;
+  font-family: "PT Serif", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 800;
+  font-size: 100px;
+  color: rgb(255, 213, 0);
+  transition: all 1s ease;
+
+  &:hover {
+  transform: scale(1.5, 1.5);
+}
+}
+  
+
+
 @media screen and (max-width: 450px) {
   .navbarCon {
     border-radius: 15px;
