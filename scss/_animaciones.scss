@@ -66,3 +66,27 @@
   }
 
 }
+
+@media screen and (max-width: 450px) {
+  .navbarCon {
+    border-radius: 15px;
+  }
+  .mainCon {
+    background-color: rgba(245, 245, 220, 0.74);
+  }
+  .form1 {
+    width: min-content;
+  }
+  .redes {
+    color: rgb(0, 0, 0);
+  }
+  .footer {
+    font-weight: 800;
+  }
+  .home {
+    background-color: rgba(245, 245, 220, 0.74);
+  }
+  body{
+    min-width: auto;
+  }
+}
