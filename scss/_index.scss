@@ -11,7 +11,26 @@ main {
         .img {
         }
       }
-      div {
+     
+        .carousel-caption {
+          bottom: 180px;
+          padding-left: 100px;
+          padding-right: 100px;
+          p{
+            font-size: 18px;
+          top: 2rem;
+          }
+          h5 {
+            font-size: 100px;
+            font-weight: 700;
+          }
+        }
+      }
+        
+    
+        
+       
+        
         .h1carru {
             font-family: "Inconsolata", monospace;
             font-family: "Outfit", sans-serif;
@@ -30,8 +49,7 @@ main {
             font-family: "Outfit", sans-serif;
             font-family: "PT Serif", serif;
         }
-      }
-      div {
+            div {
         div {
           .img {
           }
@@ -45,7 +63,7 @@ main {
         }
         .h4carru {
         }
-      }
+      
     }
   }
 }

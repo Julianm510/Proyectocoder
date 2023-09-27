@@ -1,6 +1,5 @@
 main {
     div {
-
         div {
             .carit {
                 height: 100vh;
@@ -20,56 +19,137 @@ main {
                     background: black;
                     opacity: 0.6;
                 }
+
+                .container {
+                    div {
+                        .carousel-caption {
+                            bottom: 180px;
+                            padding-left: 100px;
+                            padding-right: 100px;
+                        }
+
+                        .carousel-caption h5 {
+                            font-size: 100px;
+                            font-weight: 700;
+                        }
+
+                        .carousel-caption p {
+                            font-size: 18px;
+                            top: 2rem;
+                        }
+
+                        .slider-btn {
+                            margin-top: 30px;
+
+                            .btn {
+                                background-color: rgba(211, 52, 52, 0.866);
+                                columns: rgb(190, 56, 56);
+                                border-radius: 5px;
+                                padding: 1rem 2rem;
+                                margin-right: 15px;
+                            }
+
+                            .btn-1 {
+                                font-weight: 700;
+                                color: black;
+                                background-color: white;
+                                opacity: 0.7;
+
+                                &:hover {
+                                    color: white(49, 27, 213);
+                                    background-color: rgb(251, 173, 38);
+                                }
+
+                                .links {
+                                    text-decoration: none;
+                                    color: black;
+                                }
+                            }
+
+                            .btn-2 {
+                                font-weight: 700;
+                                color: black;
+                                background-color: white;
+                                opacity: 0.7;
+
+                                &:hover {
+                                    color: white(49, 27, 213);
+                                    background-color: rgb(251, 173, 38);
+                                }
+
+                                .links {
+                                    text-decoration: none;
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
             }
 
-            .container {
-
+            div {
                 .carousel-caption {
                     bottom: 180px;
                     padding-left: 100px;
                     padding-right: 100px;
+                }
 
-                    .slider-btn {
-                        margin-top: 30px;
+                .carousel-caption h5 {
+                    font-size: 100px;
+                    font-weight: 700;
+                }
 
-                        .btn .btn-1 {
-                            font-weight: 700;
+                .carousel-caption p {
+                    font-size: 18px;
+                    top: 2rem;
+                }
 
-                            .links {
-                                text-decoration: none;
-                                color: black;
+                .slider-btn {
+                    margin-top: 30px;
 
-                                &:hover {
-                                    color: white(49, 27, 213);
-                                    background-color: rgb(251, 173, 38);
-                                }
-                            }
-                        }
-
-                        .btn .btn-1 {
-                            font-weight: 700;
-
-                            .links {
-                                text-decoration: none;
-                                color: black;
-
-                                &:hover {
-                                    color: white(49, 27, 213);
-                                    background-color: rgb(251, 173, 38);
-                                }
-
-                            }
-                        }
-
+                    .btn {
+                        background-color: rgba(211, 52, 52, 0.866);
+                        columns: rgb(190, 56, 56);
+                        border-radius: 5px;
+                        padding: 1rem 2rem;
+                        margin-right: 15px;
                     }
 
+                    .btn-1 {
+                        font-weight: 700;
+                        color: black;
+                        background-color: white;
+                        opacity: 0.7;
 
+                        &:hover {
+                            color: white(49, 27, 213);
+                            background-color: rgb(251, 173, 38);
+                        }
+
+                        .links {
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+
+                    .btn-2 {
+                        font-weight: 700;
+                        color: black;
+                        background-color: white;
+                        opacity: 0.7;
+
+                        &:hover {
+                            color: white(49, 27, 213);
+                            background-color: rgb(251, 173, 38);
+                        }
+
+                        .links {
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
                 }
             }
         }
-
-
-
-
     }
 }
