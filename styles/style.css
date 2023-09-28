@@ -389,6 +389,35 @@ main div div div .slider-btn .btn-2 .links {
 body {
   background-color: rgb(67, 65, 65);
 }
+.cuerpomult{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.cuerpomult img{
+  height: 300px;
+  width: 450px;
+  border: 2px double grey;
+  border-radius: 7px;
+  opacity: 0.9;
+}
+
+.cuerpomult img:hover{
+  opacity: 1;
+  border: solid white 2px;
+}
+
+.imgmult{
+  margin: 15px;
+  
+}
+.contenedor{
+  background-color: rgb(144, 144, 144);
+  border-radius: 8px;
+  margin: 10px;
+}
 
 @media screen and (max-width: 550px) {
   .home {
