@@ -11,6 +11,28 @@ main {
         .img {
         }
       }
+      div{
+        .carit{
+          height: 100vh;
+          min-height: 300px;
+          background-color: no-repeat scroll center scroll;
+          -webkit-background-size: cover;
+          background-size: cover;
+
+          &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: black;
+            opacity: 0.6;
+        }
+      }
+
+      
      
         .carousel-caption {
           bottom: 180px;
@@ -26,29 +48,44 @@ main {
           }
         }
       }
+
+    }
         
     
         
-       
-        
-        .h1carru {
-            font-family: "Inconsolata", monospace;
-            font-family: "Outfit", sans-serif;
-            font-family: "PT Serif", serif;
-            font-size: 100px;
-            font-weight: 500
-        }
+    .carousel-caption {
+      bottom: 180px;
+      padding-left: 100px;
+      padding-right: 100px;
+      p{
+        font-size: 18px;
+      top: 2rem;
+      }
+      h5 {
+        font-size: 100px;
+        font-weight: 700;
+      }
+      
+      .h1carru {
+        font-family: "Inconsolata", monospace;
+        font-family: "Outfit", sans-serif;
+        font-family: "PT Serif", serif;
+        font-size: 100px;
+        font-weight: 500
+    }
 
-        .h2carru {
-            font-family: "Inconsolata", monospace;
-            font-family: "Outfit", sans-serif;
-            font-family: "PT Serif", serif;
-        }
-        .h4carru {  
-            font-family: "Inconsolata", monospace;
-            font-family: "Outfit", sans-serif;
-            font-family: "PT Serif", serif;
-        }
+    .h2carru {
+        font-family: "Inconsolata", monospace;
+        font-family: "Outfit", sans-serif;
+        font-family: "PT Serif", serif;
+    }
+    .h4carru {  
+        font-family: "Inconsolata", monospace;
+        font-family: "Outfit", sans-serif;
+        font-family: "PT Serif", serif;
+    }
+    }
+        
             div {
         div {
           .img {
