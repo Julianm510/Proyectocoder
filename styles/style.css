@@ -418,6 +418,9 @@ body {
   border-radius: 8px;
   margin: 10px;
 }
+.lugares{
+  padding: 10px;
+}
 
 @media screen and (max-width: 550px) {
   .home {
