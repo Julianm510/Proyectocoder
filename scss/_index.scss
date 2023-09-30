@@ -1,157 +1,148 @@
 main {
   div {
+    div {}
+
+
+
     div {
-      button {
-      }
-      button {
-      }
-    }
-    div {
-      div {
-        .img {
-        }
-      }
-      div{
-        .carit{
-          height: 100vh;
-          min-height: 300px;
-          background-color: no-repeat scroll center scroll;
-          -webkit-background-size: cover;
-          background-size: cover;
+      .carit {
+        height: 100vh;
+        min-height: 300px;
+        background-color: no-repeat scroll center scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
 
-          &::before {
-            content: "";
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            background: black;
-            opacity: 0.9;
+        &::before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background: black;
+          opacity: 0.9;}
 
-            .container{
-              div{
-                div{
-                  .h1carru{
-                    font-family: "Inconsolata", monospace;
-                    font-family: "Outfit", sans-serif;
-                    font-family: "PT Serif", serif;
-                    font-size: 100px;
-                    font-weight: 500
 
+
+        .container {
+          div {
+            div {
+              .h1carru {
+                font-family: "Inconsolata", monospace;
+                font-family: "Outfit", sans-serif;
+                font-family: "PT Serif", serif;
+                font-size: 100px;
+                font-weight: 500;
+              }
+
+              .h2carru {
+                font-family: "Inconsolata", monospace;
+                font-family: "Outfit", sans-serif;
+                font-family: "PT Serif", serif;
+
+              }
+
+              .h4carru {
+                font-size: 23px;
+                font-family: "Inconsolata", monospace;
+                font-family: "Outfit", sans-serif;
+                font-family: "PT Serif", serif;
+              }
+
+
+              .slider-btn {
+                margin-top: 30px;
+
+                .btn-1 {
+                  font-weight: 700;
+                  color: black;
+                  background-color: white;
+                  opacity: 0.7;
+
+                  &:hover {
+                    color: white(49, 27, 213);
+                    background-color: rgb(251, 173, 38);
                   }
-                  .h2carru{
-                    font-family: "Inconsolata", monospace;
-                    font-family: "Outfit", sans-serif;
-                    font-family: "PT Serif", serif;
 
-                  }
-                  .h4carru{
-                    font-family: "Inconsolata", monospace;
-                    font-family: "Outfit", sans-serif;
-                    font-family: "PT Serif", serif;
-                  }
-
-
-                    .slider-btn {
-                      margin-top: 30px;
-
-                      .btn-1 {
-                        font-weight: 700;
-                        color: black;
-                        background-color: white;
-                        opacity: 0.7;
-
-                        &:hover {
-                            color: white(49, 27, 213);
-                            background-color: rgb(251, 173, 38);
-                        }
-
-                        .links {
-                            text-decoration: none;
-                            color: black;
-                        }
-                      }
-
+                  .links {
+                    text-decoration: none;
+                    color: black;
                   }
                 }
+
               }
             }
-        }
-      }
-
-      
-     
-        
-      }
-
-    }
-        
-    
-        
-    .carousel-caption {
-      bottom: 180px;
-      padding-left: 100px;
-      padding-right: 100px;
-     
-      
-      .h1carru {
-        font-family: "Inconsolata", monospace;
-        font-family: "Outfit", sans-serif;
-        font-family: "PT Serif", serif;
-        font-size: 100px;
-        font-weight: 500
-     }
-
-      .h2carru {
-          font-family: "Inconsolata", monospace;
-          font-family: "Outfit", sans-serif;
-          font-family: "PT Serif", serif;
-      }
-      .h4carru {  
-          font-family: "Inconsolata", monospace;
-          font-family: "Outfit", sans-serif;
-          font-family: "PT Serif", serif;
-      }
-      .slider-btn {
-        margin-top: 30px;
-
-        .btn-1 {
-          font-weight: 700;
-          color: black;
-          background-color: white;
-          opacity: 0.7;
-
-          &:hover {
-              color: white(49, 27, 213);
-              background-color: rgb(251, 173, 38);
           }
 
-          .links {
-              text-decoration: none;
+
+        }
+
+
+
+
+
+
+      }
+
+
+      .carit {
+        height: 100vh;
+        min-height: 300px;
+        background-color: no-repeat scroll center scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+
+        .carousel-caption {
+          bottom: 180px;
+          padding-left: 100px;
+          padding-right: 100px;
+
+
+          .h1carru {
+            font-family: "Inconsolata", monospace;
+            font-family: "Outfit", sans-serif;
+            font-family: "PT Serif", serif;
+            font-size: 100px;
+            font-weight: 500;
+          }
+
+          .h2carru {
+            font-family: "Inconsolata", monospace;
+            font-family: "Outfit", sans-serif;
+            font-family: "PT Serif", serif;
+          }
+
+          .h4carru {
+            font-size: 23px;
+            font-family: "Inconsolata", monospace;
+            font-family: "Outfit", sans-serif;
+            font-family: "PT Serif", serif;
+          }
+
+          .slider-btn {
+            margin-top: 30px;
+
+            .btn-1 {
+              font-weight: 700;
               color: black;
-          }
-        }
+              background-color: white;
+              opacity: 0.7;
 
-    }
-    }
-        
-            div {
-        div {
-          .img {
+              &:hover {
+                color: white(49, 27, 213);
+                background-color: rgb(251, 173, 38);
+              }
+
+              .links {
+                text-decoration: none;
+                color: black;
+              }
+            }
+
           }
         }
       }
-      div {
-        .h1carru {
-        }
-
-        .h2carru {
-        }
-        .h4carru {
-        }
-      
     }
   }
 }
