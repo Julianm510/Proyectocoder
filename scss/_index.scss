@@ -27,27 +27,30 @@ main {
 
         .container {
           div {
-            div {
+            .carousel-caption {
+              bottom: 180px;
+              padding-left: 100px;
+              padding-right: 100px;
               .h1carru {
-                font-family: "Inconsolata", monospace;
-                font-family: "Outfit", sans-serif;
-                font-family: "PT Serif", serif;
+                font-family: $tipografiaindex;
+                
+                
                 font-size: 100px;
                 font-weight: 500;
               }
 
               .h2carru {
-                font-family: "Inconsolata", monospace;
-                font-family: "Outfit", sans-serif;
-                font-family: "PT Serif", serif;
+                font-family: $tipografiaindex;
+                
+                
 
               }
 
               .h4carru {
                 font-size: 23px;
-                font-family: "Inconsolata", monospace;
-                font-family: "Outfit", sans-serif;
-                font-family: "PT Serif", serif;
+                font-family: $tipografiaindex;
+                
+                
               }
 
 
@@ -100,24 +103,24 @@ main {
 
 
           .h1carru {
-            font-family: "Inconsolata", monospace;
-            font-family: "Outfit", sans-serif;
-            font-family: "PT Serif", serif;
+            font-family: $tipografiaindex;
+            
+            
             font-size: 100px;
             font-weight: 500;
           }
 
           .h2carru {
-            font-family: "Inconsolata", monospace;
-            font-family: "Outfit", sans-serif;
-            font-family: "PT Serif", serif;
+            font-family: $tipografiaindex;
+            
+            
           }
 
           .h4carru {
             font-size: 23px;
-            font-family: "Inconsolata", monospace;
-            font-family: "Outfit", sans-serif;
-            font-family: "PT Serif", serif;
+            font-family: $tipografiaindex;
+            
+            
           }
 
           .slider-btn {

@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.cabecera {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .cabecera nav div div a .logo {
   width: 150px;
   height: 80px;
@@ -41,6 +47,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.footer div div .footerlogo a {
+  width: auto;
+}
 .footer div div .footerlogo a img {
   width: 150px;
   height: 100px;
@@ -65,38 +74,37 @@ main div div .carit::before {
   background: black;
   opacity: 0.9;
 }
-main div div .carit .container div div .h1carru {
-  font-family: "Inconsolata", monospace;
-  font-family: "Outfit", sans-serif;
-  font-family: "PT Serif", serif;
+main div div .carit .container div .carousel-caption {
+  bottom: 180px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+main div div .carit .container div .carousel-caption .h1carru {
+  font-family: "Lato", sans-serif;
   font-size: 100px;
   font-weight: 500;
 }
-main div div .carit .container div div .h2carru {
-  font-family: "Inconsolata", monospace;
-  font-family: "Outfit", sans-serif;
-  font-family: "PT Serif", serif;
+main div div .carit .container div .carousel-caption .h2carru {
+  font-family: "Lato", sans-serif;
 }
-main div div .carit .container div div .h4carru {
+main div div .carit .container div .carousel-caption .h4carru {
   font-size: 23px;
-  font-family: "Inconsolata", monospace;
-  font-family: "Outfit", sans-serif;
-  font-family: "PT Serif", serif;
+  font-family: "Lato", sans-serif;
 }
-main div div .carit .container div div .slider-btn {
+main div div .carit .container div .carousel-caption .slider-btn {
   margin-top: 30px;
 }
-main div div .carit .container div div .slider-btn .btn-1 {
+main div div .carit .container div .carousel-caption .slider-btn .btn-1 {
   font-weight: 700;
   color: black;
   background-color: white;
   opacity: 0.7;
 }
-main div div .carit .container div div .slider-btn .btn-1:hover {
+main div div .carit .container div .carousel-caption .slider-btn .btn-1:hover {
   color: white(49, 27, 213);
   background-color: rgb(251, 173, 38);
 }
-main div div .carit .container div div .slider-btn .btn-1 .links {
+main div div .carit .container div .carousel-caption .slider-btn .btn-1 .links {
   text-decoration: none;
   color: black;
 }
@@ -113,22 +121,16 @@ main div div .carit .carousel-caption {
   padding-right: 100px;
 }
 main div div .carit .carousel-caption .h1carru {
-  font-family: "Inconsolata", monospace;
-  font-family: "Outfit", sans-serif;
-  font-family: "PT Serif", serif;
+  font-family: "Lato", sans-serif;
   font-size: 100px;
   font-weight: 500;
 }
 main div div .carit .carousel-caption .h2carru {
-  font-family: "Inconsolata", monospace;
-  font-family: "Outfit", sans-serif;
-  font-family: "PT Serif", serif;
+  font-family: "Lato", sans-serif;
 }
 main div div .carit .carousel-caption .h4carru {
   font-size: 23px;
-  font-family: "Inconsolata", monospace;
-  font-family: "Outfit", sans-serif;
-  font-family: "PT Serif", serif;
+  font-family: "Lato", sans-serif;
 }
 main div div .carit .carousel-caption .slider-btn {
   margin-top: 30px;
@@ -280,10 +282,13 @@ main div div div .slider-btn .btn-2 .links {
 }
 
 .home section .bordeArriba {
-  margin: 30px;
   border-top: 1px solid rgba(255, 166, 0, 0.7);
   border-right: 1px dashed rgba(255, 166, 0, 0.7);
 }
+.home section .bordeArriba div div img {
+  width: 500px;
+}
+
 .home .container div .letraRo1 {
   font-family: "Inconsolata", monospace;
   font-family: "PT Serif", serif;
@@ -397,48 +402,9 @@ main div div div .slider-btn .btn-2 .links {
 }
 
 body {
-  background-color: rgb(67, 65, 65);
-}
-
-.cuerpomult{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-}
-
-
-.cuerpomult img{
-  height: 300px;
-  width: 450px;
-  border: 2px double grey;
-  border-radius: 7px;
-  opacity: 0.9;
-  transition: all 1s ease;
-}
-
-
-.cuerpomult img:hover{
-  opacity: 1;
-  border: solid white 2px;
-  transform: scale(1.1,1.1);
-}
-
-.imgmult{
-  margin: 15px;
-  
-}
-.contenedor{
-  background-color: rgb(144, 144, 144);
-  border-radius: 8px;
-  margin: 10px;
-  
-}
-
-
-.lugares{
-  padding: 10px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media screen and (max-width: 550px) {
@@ -457,6 +423,132 @@ body {
   .footer {
     font-weight: 600;
   }
+  .bordeArriba {
+    border-top: 3px solid rgba(255, 166, 0, 0.7);
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .galeria .imagen {
+    width: 27%;
+  }
+  .galeria .imagen .overplay p {
+    margin-top: 0;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .galeria .imagen {
+    width: 42%;
+  }
+  .galeria .imagen .overplay p {
+    margin-top: 10%;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .galeria .imagen {
+    width: 90%;
+  }
+  .galeria .imagen .overplay p {
+    margin-top: 10%;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+  }
+}
+.galeria {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.galeria .imagen {
+  display: inline-block;
+  width: 29%;
+  margin: 10px 20px;
+  position: relative;
+  border-radius: 5px;
+}
+.galeria .imagen img {
+  width: 100%;
+  height: 325px;
+  vertical-align: top;
+  border-radius: 5px;
+  border: 5px solid white;
+}
+.galeria .imagen .overplay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  transition: 1s all ease;
+  text-align: center;
+  opacity: 0;
+}
+.galeria .imagen .overplay:hover {
+  opacity: 1;
+  border-radius: 5px;
+}
+.galeria .imagen .overplay h1 {
+  font-family: "Lora", serif;
+  color: beige;
+}
+.galeria .imagen .overplay p {
+  font-family: "Lora", serif;
+  font-weight: normal;
+  color: aliceblue;
+  margin-top: 15%;
+  line-height: 22px;
+}
+
+.galeria {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.galeria .imagen {
+  display: inline-block;
+  width: 29%;
+  margin: 10px 20px;
+  position: relative;
+  border-radius: 5px;
+}
+.galeria .imagen img {
+  width: 100%;
+  height: 325px;
+  vertical-align: top;
+  border-radius: 5px;
+  border: 5px solid white;
+}
+.galeria .imagen .overplay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  transition: 1s all ease;
+  text-align: center;
+  opacity: 0;
+}
+.galeria .imagen .overplay:hover {
+  opacity: 1;
+  border-radius: 5px;
+}
+.galeria .imagen .overplay h1 {
+  font-family: "Lora", serif;
+  color: beige;
+}
+.galeria .imagen .overplay p {
+  font-family: "Lora", serif;
+  font-weight: normal;
+  color: aliceblue;
+  margin-top: 15%;
+  line-height: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+
+    .galeria{
+        width: 90%;
+        max-width: 1000px;
+        margin: 20px auto;
+
+        .imagen{
+            display: inline-block;
+            width: 29%;
+            margin: 10px 20px;
+            position: relative;
+            border-radius: 5px;
+            
+
+            img{
+                width: 100%;
+                height: 325px;
+                vertical-align: top;
+                border-radius: 5px;
+                border: 5px solid white;
+            }
+
+            .overplay{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background: rgba(0,0,0,.7);
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                transition: 1s all ease;
+                text-align: center;
+                opacity: 0;
+
+                &:hover{
+                    opacity: 1;
+                    border-radius: 5px;
+                }
+                h1{
+                    font-family: 'Lora', serif;
+                    color: beige;
+                }
+                p{
+                    font-family: 'Lora', serif;
+                    font-weight: normal;
+                    color: aliceblue;
+                    margin-top: 15%;
+                    line-height: 22px;
+
+    
+                }
+    
+            }
+
+        }
+        
+    }
