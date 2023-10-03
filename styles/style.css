@@ -407,7 +407,7 @@ body {
   background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 576px) {
   .home {
     background-color: rgba(245, 245, 220, 0.74);
   }
@@ -427,8 +427,11 @@ body {
     border-top: 3px solid rgba(255, 166, 0, 0.7);
     margin-top: 15px;
   }
+  .form1 {
+    width: 100vw !important;
+  }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .galeria .imagen {
     width: 27%;
   }
@@ -443,7 +446,7 @@ body {
   }
   .galeria .imagen .overplay p {
     margin-top: 10%;
-    font-size: 10px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -452,7 +455,7 @@ body {
   }
   .galeria .imagen .overplay p {
     margin-top: 10%;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 35px;
     text-align: center;
   }
@@ -471,7 +474,7 @@ body {
 }
 .galeria .imagen img {
   width: 100%;
-  height: 325px;
+  height: auto;
   vertical-align: top;
   border-radius: 5px;
   border: 5px solid white;
