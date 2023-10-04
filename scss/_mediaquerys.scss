@@ -1,6 +1,10 @@
 @media screen and (max-width: 576px) {
     .home {
-      background-color: rgba(245, 245, 220, 0.74);
+      background-color: rgba(221, 214, 215, 0.74);
+    }
+    .nosotros{
+      font-size: larger;
+      color: black;
     }
     .navbarCon {
       border-radius: 15px;
@@ -17,9 +21,11 @@
     .bordeArriba{
       border-top: 3px solid rgba(255, 166, 0, 0.7);
       margin-top: 15px;
+      padding: 5px;
             
      
-      }
+    }
+    
       
         .form1 {
 

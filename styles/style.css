@@ -307,6 +307,10 @@ main div div .carit .slider-btn .btn-2 .links {
   border-top: 1px solid rgba(255, 166, 0, 0.7);
   border-right: 1px dashed rgba(255, 166, 0, 0.7);
 }
+.home section .bordeArriba div div .nosotros {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
 .home section .bordeArriba div div img {
   width: 500px;
 }
@@ -431,7 +435,11 @@ body {
 
 @media screen and (max-width: 576px) {
   .home {
-    background-color: rgba(245, 245, 220, 0.74);
+    background-color: rgba(221, 214, 215, 0.74);
+  }
+  .nosotros {
+    font-size: larger;
+    color: black;
   }
   .navbarCon {
     border-radius: 15px;
@@ -448,6 +456,7 @@ body {
   .bordeArriba {
     border-top: 3px solid rgba(255, 166, 0, 0.7);
     margin-top: 15px;
+    padding: 5px;
   }
   .form1 {
     width: 100vw !important;

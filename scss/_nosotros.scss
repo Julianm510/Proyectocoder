@@ -1,20 +1,26 @@
 .home{
     section{
-        .bordeArriba{
-            
-            
-            border-top: 1px solid rgba(255, 166, 0, 0.7);
-            border-right: 1px dashed rgba(255, 166, 0, 0.7);
-            div{
+        
+            .bordeArriba{
+                border-top: 1px solid rgba(255, 166, 0, 0.7);
+                border-right: 1px dashed rgba(255, 166, 0, 0.7);
                 div{
-                 
-                }
-                div{
-                    img{
-                        width:500px
+                    div{
+                        .nosotros{
+                            font-family: 'Open Sans', sans-serif;
+                            color: white;
+                        }
+                     
+                    }
+                    div{
+                        img{
+                            width:500px
+                        }
                     }
                 }
+
             }
-        }
-    }
+            
+    }       
+      
 }
