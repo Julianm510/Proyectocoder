@@ -1,0 +1,13 @@
+@mixin carru () {
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@mixin carit () {
+        height: 100vh;
+        min-height: 300px;
+        background-color: no-repeat scroll center scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+}

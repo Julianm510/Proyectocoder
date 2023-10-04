@@ -6,11 +6,7 @@ main {
 
     div {
       .carit {
-        height: 100vh;
-        min-height: 300px;
-        background-color: no-repeat scroll center scroll;
-        -webkit-background-size: cover;
-        background-size: cover;
+        @include carit;
 
         &::before {
           content: "";
@@ -28,9 +24,7 @@ main {
         .container {
           div {
             .carousel-caption {
-              bottom: 180px;
-              padding-left: 100px;
-              padding-right: 100px;
+              @include carru;
               .h1carru {
                 font-family: $tipografiaindex;
                 
@@ -90,16 +84,10 @@ main {
 
 
       .carit {
-        height: 100vh;
-        min-height: 300px;
-        background-color: no-repeat scroll center scroll;
-        -webkit-background-size: cover;
-        background-size: cover;
+        @include carit;
 
         .carousel-caption {
-          bottom: 180px;
-          padding-left: 100px;
-          padding-right: 100px;
+         @include carru;
 
 
           .h1carru {
