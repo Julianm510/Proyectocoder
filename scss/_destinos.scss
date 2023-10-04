@@ -26,17 +26,22 @@ main {
                             bottom: 180px;
                             padding-left: 100px;
                             padding-right: 100px;
+
+                            h1{
+                                font-size: 100px;
+                                font-weight: 700;
+
+                            }
+                            p {
+                                font-size: 23px;
+                                top: 2rem;
+                            }
+    
                         }
 
-                        .carousel-caption h5 {
-                            font-size: 100px;
-                            font-weight: 700;
-                        }
+                        
 
-                        .carousel-caption p {
-                            font-size: 18px;
-                            top: 2rem;
-                        }
+                 
 
                         .slider-btn {
                             margin-top: 30px;
@@ -87,23 +92,40 @@ main {
                 }
             }
 
-            div {
+            .carit {
+                height: 100vh;
+                min-height: 300px;
+                background-color: no-repeat scroll center scroll;
+                -webkit-background-size: cover;
+                background-size: cover;
+
+                &::before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    background: black;
+                    opacity: 0.5;
+                }
                 .carousel-caption {
                     bottom: 180px;
                     padding-left: 100px;
                     padding-right: 100px;
+
+                    h1 {
+                        font-size: 100px;
+                        font-weight: 700;
+                    }
+                    p {
+                        font-size: 23px;
+                        top: 2rem;
+                    }
                 }
 
-                .carousel-caption h5 {
-                    font-size: 100px;
-                    font-weight: 700;
-                }
-
-                .carousel-caption p {
-                    font-size: 18px;
-                    top: 2rem;
-                }
-
+                
                 .slider-btn {
                     margin-top: 30px;
 

@@ -158,6 +158,10 @@ main div div .carit .carousel-caption .slider-btn .btn-1 .links {
   padding: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 3px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 main div div .carit {
@@ -183,12 +187,12 @@ main div div .carit .container div .carousel-caption {
   padding-left: 100px;
   padding-right: 100px;
 }
-main div div .carit .container div .carousel-caption h5 {
+main div div .carit .container div .carousel-caption h1 {
   font-size: 100px;
   font-weight: 700;
 }
 main div div .carit .container div .carousel-caption p {
-  font-size: 18px;
+  font-size: 23px;
   top: 2rem;
 }
 main div div .carit .container div .slider-btn {
@@ -229,54 +233,72 @@ main div div .carit .container div .slider-btn .btn-2 .links {
   text-decoration: none;
   color: black;
 }
-main div div div .carousel-caption {
+main div div .carit {
+  height: 100vh;
+  min-height: 300px;
+  background-color: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+main div div .carit::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: black;
+  opacity: 0.5;
+}
+main div div .carit .carousel-caption {
   bottom: 180px;
   padding-left: 100px;
   padding-right: 100px;
 }
-main div div div .carousel-caption h5 {
+main div div .carit .carousel-caption h1 {
   font-size: 100px;
   font-weight: 700;
 }
-main div div div .carousel-caption p {
-  font-size: 18px;
+main div div .carit .carousel-caption p {
+  font-size: 23px;
   top: 2rem;
 }
-main div div div .slider-btn {
+main div div .carit .slider-btn {
   margin-top: 30px;
 }
-main div div div .slider-btn .btn {
+main div div .carit .slider-btn .btn {
   background-color: rgba(211, 52, 52, 0.866);
   columns: rgb(190, 56, 56);
   border-radius: 5px;
   padding: 1rem 2rem;
   margin-right: 15px;
 }
-main div div div .slider-btn .btn-1 {
+main div div .carit .slider-btn .btn-1 {
   font-weight: 700;
   color: black;
   background-color: white;
   opacity: 0.7;
 }
-main div div div .slider-btn .btn-1:hover {
+main div div .carit .slider-btn .btn-1:hover {
   color: white(49, 27, 213);
   background-color: rgb(251, 173, 38);
 }
-main div div div .slider-btn .btn-1 .links {
+main div div .carit .slider-btn .btn-1 .links {
   text-decoration: none;
   color: black;
 }
-main div div div .slider-btn .btn-2 {
+main div div .carit .slider-btn .btn-2 {
   font-weight: 700;
   color: black;
   background-color: white;
   opacity: 0.7;
 }
-main div div div .slider-btn .btn-2:hover {
+main div div .carit .slider-btn .btn-2:hover {
   color: white(49, 27, 213);
   background-color: rgb(251, 173, 38);
 }
-main div div div .slider-btn .btn-2 .links {
+main div div .carit .slider-btn .btn-2 .links {
   text-decoration: none;
   color: black;
 }
@@ -467,8 +489,8 @@ body {
 }
 .galeria .imagen {
   display: inline-block;
-  width: 29%;
-  margin: 10px 20px;
+  width: 33%;
+  margin: 5px 10px;
   position: relative;
   border-radius: 5px;
 }
