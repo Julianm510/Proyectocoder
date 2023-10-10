@@ -483,51 +483,57 @@ body {
     width: 80%;
   }
 }
-.galeria {
-  width: 90%;
-  max-width: 1000px;
-  margin: 20px auto;
+main .galeria1 {
+  margin: 25px;
 }
-.galeria .imagen {
-  display: inline-block;
-  width: 29%;
-  margin: 10px 20px;
+main .galeria1 .contenedor-imagenes {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
+}
+main .galeria1 .contenedor-imagenes .imagen1 {
+  width: 32%;
   position: relative;
-  border-radius: 5px;
+  height: 300px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
 }
-.galeria .imagen img {
-  width: 100%;
-  height: auto;
-  vertical-align: top;
-  border-radius: 5px;
-  border: 5px solid white;
+main .galeria1 .contenedor-imagenes .imagen1:hover .overlay {
+  height: 100%;
+  cursor: pointer;
 }
-.galeria .imagen .overlay {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+main .galeria1 .contenedor-imagenes .imagen1 img {
   width: 100%;
   height: 100%;
-  padding: 10px;
-  transition: 1s all ease;
+  object-fit: cover;
+  border: 2px solid white;
+}
+main .galeria1 .contenedor-imagenes .imagen1 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(38, 40, 38, 0.829);
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+main .galeria1 .contenedor-imagenes .imagen1 .overlay h1 {
+  color: rgb(252, 246, 246);
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   text-align: center;
-  opacity: 0;
+  transform: translate(-50%, -50%);
 }
-.galeria .imagen .overlay:hover {
-  opacity: 1;
-  border-radius: 5px;
-}
-.galeria .imagen .overlay h1 {
-  font-family: "Lora", serif;
-  color: beige;
-}
-.galeria .imagen .overlay p {
-  font-family: "Lora", serif;
-  font-weight: normal;
-  color: aliceblue;
-  margin-top: 15%;
-  line-height: 22px;
+main .galeria1 .contenedor-imagenes .imagen1 .overlay h1:hover {
+  height: 100%;
+  cursor: pointer;
 }
 
 main .galeria1 {
