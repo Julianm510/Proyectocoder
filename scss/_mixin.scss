@@ -11,3 +11,9 @@
         -webkit-background-size: cover;
         background-size: cover;
 }
+
+@mixin links () {
+    
+    text-decoration: none;
+    color: black;
+}
