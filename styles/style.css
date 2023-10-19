@@ -416,27 +416,6 @@ body {
     width: 100vw !important;
   }
 }
-@media screen and (max-width: 1000px) {
-  .contenedor-imagenes {
-    width: 95%;
-  }
-}
-@media screen and (max-width: 700px) {
-  .contenedor-imagenes {
-    width: 90%;
-  }
-  .contenedor-imagenes .imagen1 {
-    width: 48%;
-  }
-}
-@media screen and (max-width: 450px) {
-  .contenedor-imagenes {
-    width: 98%;
-  }
-  .contenedor-imagenes .imagen1 {
-    width: 80%;
-  }
-}
 @media screen and (max-width: 777px) {
   .h1carru {
     width: auto;
@@ -448,23 +427,43 @@ body {
     width: auto;
   }
 }
+@media screen and (max-width: 1000px) {
+  .contenedor-imagenes {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contenedor-imagenes {
+    width: 90%;
+  }
+  .imagen1 {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contenedor-imagenes {
+    width: 98%;
+  }
+  .imagen1 {
+    width: 80%;
+  }
+}
 main .galeria1 {
   margin: 25px;
-}
-main .galeria1 .contenedor-imagenes {
   display: flex;
-  width: 85%;
-  margin: auto;
-  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+  gap: 20px;
   flex-wrap: wrap;
   border-radius: 3px;
 }
+main .galeria1 .contenedor-imagenes {
+  min-width: 200px;
+  flex: 350px;
+}
 main .galeria1 .contenedor-imagenes .imagen1 {
-  width: 32%;
-  position: relative;
-  height: 300px;
-  margin-bottom: 5px;
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  min-width: 200px;
+  flex: 350px;
 }
 main .galeria1 .contenedor-imagenes .imagen1:hover .overlay {
   height: 100%;
@@ -502,11 +501,13 @@ main .galeria1 {
 }
 main .galeria1 .contenedor-imagenes {
   display: flex;
-  width: 85%;
-  margin: auto;
+  width: 90%;
+  margin: 0 auto;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 20px;
   border-radius: 3px;
+  overflow: hidden;
 }
 main .galeria1 .contenedor-imagenes .imagen1 {
   width: 32%;
@@ -547,21 +548,24 @@ main .galeria1 .contenedor-imagenes .imagen1 .overlay h1 {
 }
 
 @media screen and (max-width: 1000px) {
-  .galeria1 .imagen1 {
-    width: 27%;
-  }
-  .galeria1 .imagen1 .overplay h1 {
-    margin-top: 0;
+  .contenedor-imagenes {
+    width: 95%;
   }
 }
-@media screen and (max-width: 800px) {
-  .galeria1 .imagen1 {
-    width: 42%;
+@media screen and (max-width: 700px) {
+  .contenedor-imagenes {
+    width: 90%;
+  }
+  .imagen1 {
+    width: 48%;
   }
 }
 @media screen and (max-width: 450px) {
-  .galeria1 .imagen1 {
-    width: 90%;
+  .contenedor-imagenes {
+    width: 98%;
+  }
+  .imagen1 {
+    width: 80%;
   }
 }
 
