@@ -3,7 +3,7 @@
          margin: 25px;
          display: flex;
          width: 90%;
-         margin: 0 auto;
+         margin: 15px auto;
          gap: 20px;
          flex-wrap: wrap;
          border-radius: 3px;
@@ -12,10 +12,22 @@
          .contenedor-imagenes {
              min-width: 200px;
              flex: 350px;
+             margin: 0 auto;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            border-radius: 3px;
+            overflow: hidden;
+            min-width: 200px;
+             flex: 350px;
 
              .imagen1 {
                  min-width: 200px;
                  flex: 350px;
+                 height: 300px ;
+                margin-bottom: 5px;
+                box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+
 
 
                  &:hover .overlay {

@@ -1,6 +1,12 @@
 main{
     .galeria1{
         margin: 25px;
+        display: flex;
+        width: 90%;
+        margin: 15px auto;
+        gap: 20px;
+        flex-wrap: wrap;
+        border-radius: 3px;
     
         
         .contenedor-imagenes{
@@ -12,6 +18,8 @@ main{
             gap: 20px;
             border-radius: 3px;
             overflow: hidden;
+            min-width: 200px;
+             flex: 350px;
 
             .imagen1{
                 width: 32%;
