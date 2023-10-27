@@ -261,6 +261,10 @@ main div .d-item div .btn:hover {
   background-color: rgb(251, 173, 38);
 }
 
+* {
+  border: solid 2px 0;
+}
+
 .home section .bordeArriba {
   border-top: 1px solid rgba(255, 166, 0, 0.7);
   border-right: 1px dashed rgba(255, 166, 0, 0.7);
@@ -412,9 +416,7 @@ body {
     font-weight: 600;
   }
   .bordeArriba {
-    border-top: 3px solid rgba(255, 166, 0, 0.7);
-    margin-top: 15px;
-    padding: 5px;
+    border: none;
   }
   .form1 {
     width: 100vw !important;
