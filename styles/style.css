@@ -38,8 +38,12 @@
   background-size: 100%;
   padding: 50px 0;
 }
-.cabecera .abajoHead .container div h2 .abajoHeadTexto {
+.cabecera .abajoHead .container div p {
+  font-size: 30px;
+}
+.cabecera .abajoHead .container div p .abajoHeadTexto {
   color: rgb(255, 213, 0);
+  font-size: 30px;
 }
 
 .footer {
